@@ -55,7 +55,6 @@ main{
 }
 .amount-btn{
     background: #FAFAFA;
-    color: #FF5959;
     color: #707070;
     padding: 32px;
     font-size: 25px;
@@ -112,4 +111,17 @@ hr{
 .plan-description{
     font-size: 18px;
     color: #828585;
+}
+/* depend section styles */
+.contents{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.img{
+    margin-top: 130px;
+}
+.img img{
+    max-width: 90%;
+    border-radius: 5px;
 }
