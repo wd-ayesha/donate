@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+}
+/* header styles */
+header{
+    background-image: url('../images/donation1.jpg'),linear-gradient(white, black);
+    /* background-image: url('../images/donation1.jpg'), linear-gradient(rgba(0 0 255 0.1) rgba(0 0 255 0.5)); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+/* banner styles */
+.banner{
+    text-align: center;
+    color: #fff;
+    padding: 150px 0px;
+}
+.banner-title{
+    font-size: 60px;
+}
+.banner-description{
+    font-size: 20px;
+    padding: 20px 0;
+}
+.btn{
+    background: #FF5959;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+}
+/* main styles */
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.center{
+    text-align: center;
+}
+.head{
+    padding-top: 90px;
+    padding-bottom: 20px;
+    font-size: 45px;
+    color: #121212;
+}
+.head-description{
+    color: #767676;
+    font-size: 20px;
+}
+.amount-content{
+    margin-top: 50px;
+    text-align: center;
+}
+.amount-btn{
+    background: #FAFAFA;
+    color: #FF5959;
+    color: #707070;
+    padding: 32px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: .5s;
+}
+.amount-btn:hover{
+    background: #FAFAFA;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+}
+.amount-input{
+    border: 0;
+   margin-top: 40px;
+   padding: 10px 20px;
+}
+.amount-input::placeholder{
+   color: #b9b9b9;
+   font-size: 16px;
+}
+hr{
+    margin-left: 195px;
+    width: 67%;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+/* plan section styles */
+.plan-content{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+.plan-item{
+    border-radius: 5px;
+    padding: 60px 25px;
+}
+.food{
+    background: #EDF5F6;
+}
+.shelter{
+    background: #FFEEEE;
+}
+.education{
+    background: #FFF4D6;
+}
+.plan-title{
+    font-weight: bold;
+    font-size: 25px;
+    padding: 25px 0;
+}
+.plan-description{
+    font-size: 18px;
+    color: #828585;
+}
