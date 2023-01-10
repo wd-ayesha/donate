@@ -145,6 +145,7 @@ hr{
     border: 0;
     font-weight: bold;
     margin-left: -140px;
+    outline: none;
 }
 .update-btn{
     position: relative;
